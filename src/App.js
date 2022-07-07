@@ -1,12 +1,13 @@
 import React from "react";
-import Header from "./components/Header";
+import Header from "./components/Header/Header.js";
 
 function App() {
   return (
     // we will use BEM class naming convention
     <div className="App">
+      <Header/>
         Let's build bubble.
-        <Header/>
+        
         {/* cards */}
         {/* functions in button*/}
 
